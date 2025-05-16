@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Samsung Galaxy S24 Ultra - Experience the Future</title>
+<link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+<header id="header">
+    <nav class="container">
+    <div class="logo">
+        <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/91/Samsung_Galaxy_Logo.png"
+        alt="Samsung Logo"
+        />
+    </div>
+    <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#purchase">Buy Now</a>
+        <div class="cart-icon" id="cartIcon">
+        ????
+        <span class="cart-count" id="cartCount">0</span>
+        </div>
+    </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="container">
+    <div class="hero-content">
+        <div class="hero-text">
+        <span class="badge">New</span>
+        <h1>Samsung Galaxy S24 Ultra</h1>
+        <p>
+            Experience the future of mobile technology with AI-powered
+            innovation
+        </p>
+        <div>
+            <a href="#features" class="btn">Explore Features</a>
+            <a href="#" class="btn btn-outline" style="margin-left: 15px"
+            >View Specs</a
+            >
+        </div>
+        </div>
+        <div class="hero-image">
+        <img
+            src="https://images.samsung.com/is/image/samsung/p6pim/co/2401/gallery/co-galaxy-s24-s928-sm-s928bztultc-539325480?$650_519_PNG$"
+            alt="Samsung Galaxy S24 Ultra"
+        />
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="features" class="features">
+    <div class="container">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>AI-Powered Camera</h3>
+            <p>
+            Capture stunning photos and videos with advanced AI enhancements
+            </p>
+        </div>
+        </div>
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>S Pen Included</h3>
+            <p>
+            Write, draw, and navigate with precision using the built-in S
+            Pen
+            </p>
+        </div>
+        </div>
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>Powerful Performance</h3>
+            <p>Experience lightning-fast speeds with the latest processor</p>
+        </div>
+        </div>
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>All-Day Battery</h3>
+            <p>Stay connected longer with intelligent battery management</p>
+        </div>
+        </div>
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>5G Connectivity</h3>
+            <p>Enjoy ultra-fast download and streaming speeds</p>
+        </div>
+        </div>
+        <div class="feature-card">
+        <div class="feature-content">
+            <h3>Durable Design</h3>
+            <p>Protected by Corning® Gorilla® Glass Victus® 2</p>
+        </div>
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="purchase" class="purchase">
+    <div class="container">
+    <div class="purchase-content">
+        <h2>Get Your Galaxy S24 Ultra</h2>
+        <p>Starting from $1,299 or $54.12/mo for 24 mo</p>
+        <div class="purchase-card">
+        <div class="quantity-selector">
+            <button class="quantity-btn" id="decreaseQuantity">-</button>
+            <input type="number" id="quantity" value="1" min="1" max="10" />
+            <button class="quantity-btn" id="increaseQuantity">+</button>
+        </div>
+        <div class="purchase-info">
+            <p>✓ Free shipping</p>
+            <p>✓ 24-month financing available</p>
+            <p>✓ Samsung official warranty</p>
+        </div>
+        <a href="#" class="btn" id="addToCart">Add to Cart</a>
+        </div>
+    </div>
+    </div>
+</section>
+
+<div class="cart-modal" id="cartModal">
+    <h3>Shopping Cart</h3>
+    <div id="cartItems"></div>
+    <a href="#" class="btn" id="checkout">Proceed to Checkout</a>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>
